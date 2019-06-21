@@ -1,0 +1,36 @@
+{
+    "start_delay":5000,
+    "background_color":"black",
+    "text_color":"white",
+    "font_size": "12px",
+
+    "library":[
+
+        {
+            "id":"pinggoogle",
+            "command":"ping",
+            "params":[ "gooogle.com" ],
+            "enabled":true
+        },
+        {
+            "id":"testinterval",
+            "command":"node",
+            "params":[ "C:\\Users\\Darryl\\Documents\\development\\framework\\_suite\\test.js" ],
+            "enabled":true
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    ]
+}

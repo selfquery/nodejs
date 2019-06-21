@@ -1,0 +1,9 @@
+/client/node_modules
+/node_modules
+/dev-test
+
+
+.env
+package-lock.json
+/client/package-lock.json
+/client/README.md

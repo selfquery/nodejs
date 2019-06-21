@@ -1,0 +1,23 @@
+html
+    head
+        title #{title}
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css", integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy", crossorigin="anonymous")
+
+
+body  
+    div(id="output")
+        p=base_url
+        each script in library
+            a(href=`/api?script=${script.id}`)=script.id
+            br
+
+style.
+    #output{ 
+        font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+        font-size: #{font_size};
+        color: #{text_color};
+        padding: 10px;
+    }
+    body{
+        background-color: #{background_color};
+    }
